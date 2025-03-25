@@ -57,7 +57,7 @@ plugins:
 author:
   name   : "Dyandra Prins"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Undergraduate Engineering at UTS, majoring in Mechatronics, with a double degree in Creative Intelligence and Innovation. 2"
+  bio    : "Undergraduate Engineering at UTS, majoring in Mechatronics, with a double degree in Creative Intelligence and Innovation."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
