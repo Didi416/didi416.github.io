@@ -18,7 +18,7 @@ email:
 description: >- # this means to ignore newlines until "baseurl:"
   Undergraduate Engineering at UTS, majoring in Mechatronics, with a double degree in Creative Intelligence and Innovation
 github_username: Didi416
-minimal_mistakes_skin: dark
+minimal_mistakes_skin: neon
 search: true
 
 # Build settings
