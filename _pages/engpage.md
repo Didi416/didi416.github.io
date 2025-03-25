@@ -7,8 +7,8 @@ author_profile: true
 
 I have had the chance to participate in many engineering projects over the past few years, some successful, some less so, but I have learnt from all experiences and carry them on in future subjects.
 
-## Introduction to Engineering Projects
-
+## Solar Powered Coral Terrarium Design
+[View Project](~/_posts/I2EP.md){: .btn .btn--primary .btn--large}
 
 ## Mechanical Design Fundamentals Studio 1
 
