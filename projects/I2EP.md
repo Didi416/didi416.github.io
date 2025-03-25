@@ -1,6 +1,7 @@
 ---
 title: "Solar Powered Coral Terrarium"
 permalink: /engineeringprojects/I2EP/
+layout: single
 author_profile: true
 ---
 
@@ -11,7 +12,7 @@ In 2025, my team for this subject, 'Green Energy', took on an exciting challenge
 
 
 ### Our Innovative Solution
-![image-left](/assets/images/I2EP_D4.jpg){: .align-left}We developed a portable, sustainable terrarium that:
+![image-left](/assets/images/I2EP_D4.jpg){: .align-left} We developed a portable, sustainable terrarium that:
 - Runs entirely on solar power
 - Provides optimal conditions for short-term coral storage
 - Offers an enhanced viewing experience for researchers and the public
