@@ -1,6 +1,9 @@
 main:
   - title: "Engineering Projects"
     url: /engineeringprojects/
+    children:
+      - title: "Solar Powered Coral Terrarium Design"
+      - url: /engineeringprojects/I2EP/
   - title: "Transdisciplinary Projects"
     url: /tdprojects/
   - title: "Skills"

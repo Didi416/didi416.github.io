@@ -1,11 +1,7 @@
 ---
 title: "Solar Powered Coral Terrarium"
-last_modified_at: 2025-03-25T
-categories:
-  - Engineering
-  - Design
-tags:
-  - Innovation
+permalink: /engineeringprojects/I2EP/
+author_profile: true
 ---
 
 ## Solar-Powered Coral Terrarium: Innovating for Research and Culture
