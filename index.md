@@ -5,7 +5,7 @@
 title: About Me
 layout: single
 header:
-  overlay_image: gradient_background.png
+  overlay_image: gradient_background.jpg
 author_profile: true
 ---
 
