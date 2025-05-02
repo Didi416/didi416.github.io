@@ -7,23 +7,18 @@ author_profile: true
 
 I have had the chance to participate in many engineering projects over the past few years, some successful, some less so, but I have learnt from all experiences and carry them on in future subjects.
 
-## Solar Powered Coral Terrarium Design
 [View Project](I2EP){: .btn .btn--primary .btn--large}
 
-## Mechanical Design Fundamentals Studio 1
+## Mechanical Design Fundamentals Studio 1 - First Mechanical Design Robot
 
-## Embedded Mechatronic Systems
+## Embedded Mechatronic Systems - MCU and FPGA Experiences
 
-## Design and Innovation Fundamentals
+## Sensors and Control for Mechatronics Systems - First ROS and SLAM Experience
 
-## Sensors and Control for Mechatronics Systems
+## Industrial Robotics - MATLAB UR3 Programming
 
-## Industrial Robotics
+## Programming for Mechatronic Systems - ROS Interfacing/Programming
 
-## Programming for Mechatronic Systems
+## Embedded Mechatronic Studio - Electronic and PCB Design
 
-## Embedded Mechatronic Studio
-
-## Entrepreneurship and Commercialisation
-
-## Robotics Studio 1
+## Robotics Studio 1 - C++ and ROS Programming, SLAM, Object Detection
