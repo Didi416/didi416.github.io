@@ -2,7 +2,11 @@
 title: "Engineering Projects"
 permalink: /engineeringprojects/
 layout: single
-author_profile: true
+author_profile: false
+sidebar:
+  title: "Engineering Projects"
+  nav: sidebar
+
 ---
 
 I have had the chance to participate in many engineering projects over the past few years at university, some successful, some less so, but I have learnt from all experiences and carry them on in future projects.
