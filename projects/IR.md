@@ -1,7 +1,8 @@
 ---
 title: "Collaborative Robots (Cobots) - UR3/10"
 permalink: /engineeringprojects/IR/
-layout: splash
+layout: single
+classes: wide
 author_profile: true
 ---
 
