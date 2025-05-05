@@ -1,7 +1,7 @@
 ---
 title: "Warman Challenge 2023"
 permalink: /engineeringprojects/MDFS1/
-layout: single
+layout: splash
 author_profile: true
 ---
 

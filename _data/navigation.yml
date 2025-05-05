@@ -3,7 +3,31 @@ main:
     url: /engineeringprojects/
     children:
       - title: "Solar Powered Coral Terrarium Design"
-      - url: /engineeringprojects/I2EP/
+      - url: /engineeringprojects/MDFS1/
+  - title: "Transdisciplinary Projects"
+    url: /tdprojects/
+  - title: "Skills"
+    url: /skills/
+
+
+sidebar:
+  - title: "Engineering Projects"
+    url: /engineeringprojects/
+    children:
+      - title: "Warman Challenge 2023"
+      - url: /engineeringprojects/MDFS1/
+      - title: "MCU and FPGA Design"
+      - url: /engineeringprojects/EMSys/
+      - title: "PCB Design for a Step Tracker around ADXL335 Module"
+      - url: /engineeringprojects/EMStudio/
+      - title: "Collaborative Robots (Cobots) - UR3/10"
+      - url: /engineeringprojects/IR/
+      - title: "Programming for Mechatronic Systems"
+      - url: /engineeringprojects/PFMS/
+      - title: "Designing Robotic Guide Dog System"
+      - url: /engineeringprojects/RS1/
+      - title: "Fetch Robot Path Following"
+      - url: /engineeringprojects/SnC/
   - title: "Transdisciplinary Projects"
     url: /tdprojects/
   - title: "Skills"

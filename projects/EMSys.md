@@ -1,7 +1,7 @@
 ---
 title: "MCU and FPGA Design"
 permalink: /engineeringprojects/EMSys/
-layout: single
+layout: splash
 author_profile: true
 ---
 

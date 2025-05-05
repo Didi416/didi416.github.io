@@ -1,7 +1,7 @@
 ---
 title: "Projects in ROS2 Humble: Controlling Platforms and Programming Behaviours"
 permalink: /engineeringprojects/PFMS/
-layout: single
+layout: splash
 author_profile: true
 ---
 

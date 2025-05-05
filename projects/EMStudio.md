@@ -1,7 +1,7 @@
 ---
 title: "PCB Design for a Step Tracker around ADXL335 Module"
 permalink: /engineeringprojects/EMStudio/
-layout: single
+layout: splash
 author_profile: true
 ---
 
