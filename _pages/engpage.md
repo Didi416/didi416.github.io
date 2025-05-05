@@ -1,7 +1,8 @@
 ---
 title: "Engineering Projects"
 permalink: /engineeringprojects/
-layout: splash
+layout: single
+classes: wide
 author_profile: false
 sidebar:
   title: "Dyandra Prins"
