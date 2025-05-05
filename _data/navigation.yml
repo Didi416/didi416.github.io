@@ -11,9 +11,10 @@ main:
 
 
 sidebar:
-  - title: "Engineering Projects"
-    url: /engineeringprojects/
+  - title: "Engineering"
     children:
+      - title: "Projects Overview"
+        url: /engineeringprojects/
       - title: "Warman Challenge 2023"
       - url: /engineeringprojects/MDFS1/
       - title: "MCU and FPGA Design"
@@ -28,7 +29,7 @@ sidebar:
       - url: /engineeringprojects/RS1/
       - title: "Fetch Robot Path Following"
       - url: /engineeringprojects/SnC/
-  - title: "Transdisciplinary Projects"
+  - title: "Transdisciplinary"
     url: /tdprojects/
   - title: "Skills"
     url: /skills/

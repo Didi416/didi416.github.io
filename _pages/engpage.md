@@ -1,10 +1,10 @@
 ---
 title: "Engineering Projects"
 permalink: /engineeringprojects/
-layout: single
+layout: splash
 author_profile: false
 sidebar:
-  title: "Engineering Projects"
+  title: "Dyandra Prins"
   nav: sidebar
 
 ---
