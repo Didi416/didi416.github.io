@@ -60,9 +60,9 @@ author:
   avatar : "/assets/images/ProfilePhotoSquare.jpg"
   bio    : "Undergraduate Engineering at UTS, majoring in Mechatronics, with a double degree in Creative Intelligence and Innovation."
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
+    # - label: "Website"
+    #   icon: "fas fa-fw fa-link"
+    #   url: "https://"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/"

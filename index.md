@@ -3,7 +3,7 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 title: About Me
-layout: single
+layout: home
 header:
   overlay_image: /assets/images/gradient_background.jpg
 author_profile: true
