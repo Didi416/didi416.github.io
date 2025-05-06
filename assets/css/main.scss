@@ -2,4 +2,11 @@ $link-color: rgb(0, 0, 0);
 $masthead-link-color-hover: rgb(11, 39, 99);
 $primary-color: rgb(7, 24, 61);
 
+.page__title {
+  font-family: "Oregano", cursive;
+  font-weight: 400;
+  font-style: italic;
+}
+
+@import "minimal-mistakes/skins/contrast"; // skin
 @import "minimal-mistakes";
