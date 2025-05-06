@@ -219,6 +219,9 @@ body {
     }
 
     .page__title {
+      font-family: "Oregano", cursive;
+      font-weight: 400;
+      font-style: italic;
       font-size: $type-size-2;
 
       @include breakpoint($small) {
