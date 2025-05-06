@@ -4,6 +4,7 @@ excerpt: "ROS Interfacing/Programming, Controlling Platforms and Programming Beh
 # permalink: /engineeringprojects/PFMS/
 header:
     image: /assets/images/PFMS_Progress.png
+    teaser: assets/images/unsplash-gallery-image-2-th.jpg
 ---
 Programming for Mechatronic Systems (2024)
 
