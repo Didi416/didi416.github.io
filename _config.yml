@@ -79,11 +79,14 @@ footer:
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/dyandra-prins-4ab758267/"
 
+atom_feed:
+  hide: true
+  
 defaults:
-  # projects
+  # _eng_projects
   - scope:
-      path: "projects"
-      type: pages
+      path: "_eng_projects"
+      type: eng_portfolio
     values:
       layout: single
       classes: wide
@@ -93,6 +96,11 @@ defaults:
         title: "Dyandra Prins"
         nav: sidebar
 
+collections:
+  eng_portfolio:
+    output: true
+    permalink: /:collection/:path/
+
 category_archive:
   type: liquid
   path: /categories/
@@ -100,5 +108,4 @@ tag_archive:
   type: liquid
   path: /tags/
 
-atom_feed:
-  hide: true
+

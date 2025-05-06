@@ -1,5 +1,6 @@
 ---
-title: "Collaborative Robots (Cobots) - UR3/10"
+title: "Industrial Robotics"
+excerpt: "Collaborative Robots (Cobots) and MATLAB UR3 Programming."
 permalink: /engineeringprojects/IR/
 ---
 Industrial Robotics (2023)
