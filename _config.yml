@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Undergraduate Engineering at UTS, majoring in Mechatronics, with a double degree in Creative Intelligence and Innovation
 github_username: Didi416
 remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "default"
+minimal_mistakes_skin: "contrast"
 search: true
 
 # Build settings
