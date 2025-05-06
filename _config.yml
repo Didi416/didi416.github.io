@@ -80,25 +80,18 @@ footer:
       url: "https://www.linkedin.com/in/dyandra-prins-4ab758267/"
 
 defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
-  # _pages
+  # projects
   - scope:
       path: "projects"
       type: pages
     values:
       layout: single
       classes: wide
-      author_profile: true
+      author_profile: false
+      read_time: true
+      sidebar:
+        title: "Dyandra Prins"
+        nav: sidebar
 
 category_archive:
   type: liquid

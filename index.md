@@ -2,8 +2,8 @@
 # You don't need to edit this file, it's empty on purpose.
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-title: About Me
-layout: home
+title: Home
+layout: single
 header:
   overlay_image: /assets/images/gradient_background.jpg
 author_profile: true

@@ -1,10 +1,9 @@
 ---
-title: "Collaborative Robots (Cobots) - UR3/10"
+title: ""
 permalink: /engineeringprojects/IR/
-layout: single
-classes: wide
-author_profile: true
 ---
+## Collaborative Robots (Cobots) - UR3/10
+Industrial Robotics (2023)
 
 #### Key Learning Outcomes:
 MATLAB Programming/Forward Kinematics/Inverse Kinematics/Trajectory Generation/Velocity Kinematics/Visual Servoing

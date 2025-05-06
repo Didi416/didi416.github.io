@@ -1,11 +1,9 @@
 ---
-title: "Projects in ROS2 Humble: Controlling Platforms and Programming Behaviours"
+title: "PFMS"
 permalink: /engineeringprojects/PFMS/
-layout: single
-classes: wide
-author_profile: false
-
 ---
+## Projects in ROS2 Humble: Controlling Platforms and Programming Behaviours
+Programming for Mechatronic Systems (2024)
 
 #### Key Learning Outcomes:
 Polymorphism/Inheritance/Classes/Gazebo/Multithreading/Graph Searching/Unit Tests/ROS/Nodes/Topics/Services/Rosbags
