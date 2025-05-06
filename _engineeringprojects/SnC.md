@@ -2,6 +2,8 @@
 title: "Sensors and Control for Mechatronics Systems"
 excerpt: "Fetch Robot Path Following, First ROS and SLAM Experience."
 # permalink: /engineeringprojects/SnC/
+header:
+    teaser: assets/images/Fetch_Aruco.png
 ---
 Sensors and Control (2023)
 

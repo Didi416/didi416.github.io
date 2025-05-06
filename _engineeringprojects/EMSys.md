@@ -3,6 +3,8 @@
 title: "Embedded Mechatronic Systems"
 excerpt: "MCU and FPGA Experiences."
 # permalink: /engineeringprojects/EMSys/
+header:
+    teaser: assets/images/SnCEnvir.png
 ---
 Embedded Mechatronics Systems (2023)
 #### Key Learning Outcomes:
