@@ -1,5 +1,4 @@
 ---
-title: ""
 title: "Robotics Studio 1"
 excerpt: "Designing Robotic Guide Dog System using C++ and ROS Programming and SLAM, Object Detection."
 permalink: /engineeringprojects/RS1/
