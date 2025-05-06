@@ -90,7 +90,7 @@ defaults:
     values:
       layout: single
       classes: wide
-      author_profile: false
+      author_profile: true
       read_time: true
       sidebar:
         nav: sidebar

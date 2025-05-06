@@ -2,6 +2,7 @@
 title: "Programming for Mechatronic Systems"
 excerpt: "ROS Interfacing/Programming, Controlling Platforms and Programming Behaviours."
 # permalink: /engineeringprojects/PFMS/
+image: /assets/images/PFMS_Progress.png
 ---
 Programming for Mechatronic Systems (2024)
 

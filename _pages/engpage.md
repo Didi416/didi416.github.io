@@ -8,43 +8,6 @@ author_profile: true
 entries_layout: grid
 sidebar:
   nav: sidebar
-
-# feature_row:
-  # - 
-    # url: "/engineeringprojects/MDFS1/"
-    # btn_label: "View Project"
-    # btn_class: "btn--primary"
-  # - 
-  #   url: "/engineeringprojects/EMSys/"
-  #   btn_label: "View Project"
-  #   btn_class: "btn--primary"
-  # - image_path: /assets/images/Fetch_Aruco.png
-    # alt: "placeholder image 2"
-    # url: "/engineeringprojects/SnC/"
-    # btn_label: "View Project"
-    # btn_class: "btn--primary"
-# feature_row2:
-#   - image_path: /assets/images/UR3.png
-    # alt: "placeholder image 2"
-#     url: "/engineeringprojects/IR/"
-#     btn_label: "View Project"
-#     btn_class: "btn--primary"  
-#   - image_path: /assets/images/PFMS_Progress.png
-    # alt: "placeholder image 2"
-    # url: "/engineeringprojects/PFMS}/"
-    # btn_label: "View Project"
-    # btn_class: "btn--primary"
-  # - image_path: /assets/images/StepTrackerFinal.png
-    # alt: "placeholder image 2"
-    # url: "/engineeringprojects/EMStudio/"
-    # btn_label: "View Project"
-    # btn_class: "btn--primary"
-# feature_row3:
-  # - image_path: /assets/images/RS1_SLAM1.png
-    # alt: "placeholder image 2"
-    # url: "/engineeringprojects/RS1/"
-    # btn_label: "View Project"
-    # btn_class: "btn--primary"
 ---
 
 I have had the chance to participate in many engineering projects over the past few years at university, some successful, some less so, but I have learnt from all experiences and carry them on in future projects.
