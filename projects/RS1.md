@@ -1,7 +1,8 @@
 ---
 title: "Designing Robotic Guide Dog System"
 permalink: /engineeringprojects/RS1/
-layout: splash
+layout: single
+classes: wide
 author_profile: true
 ---
 

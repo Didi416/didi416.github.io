@@ -1,7 +1,8 @@
 ---
 title: "Fetch Robot Path Following"
 permalink: /engineeringprojects/SnC/
-layout: splash
+layout: single
+classes: wide
 author_profile: true
 ---
 
