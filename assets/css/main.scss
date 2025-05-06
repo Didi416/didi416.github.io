@@ -1,3 +1,11 @@
+---
+---
+
+@import "minimal-mistakes/skins/contrast"; // skin
+@import "minimal-mistakes";
+@import "custom/custom";
+
+
 $link-color: rgb(0, 0, 0);
 $masthead-link-color-hover: rgb(11, 39, 99);
 $primary-color: rgb(7, 24, 61);
@@ -8,5 +16,3 @@ $primary-color: rgb(7, 24, 61);
   font-style: italic;
 }
 
-@import "minimal-mistakes/skins/contrast"; // skin
-@import "minimal-mistakes";
