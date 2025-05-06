@@ -83,18 +83,17 @@ atom_feed:
   hide: true
   
 defaults:
-  # _eng_projects
+  # engineeringprojects
   - scope:
-      path: "_eng_projects"
-      type: eng_portfolio
+      path: ""
+      type: engineeringprojects
     values:
       layout: single
       classes: wide
       author_profile: false
-      read_time: true
-      sidebar:
-        title: "Dyandra Prins"
-        nav: sidebar
+      # read_time: true
+      # sidebar:
+      #   nav: sidebar
 
 collections:
   eng_portfolio:

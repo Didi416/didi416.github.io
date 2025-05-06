@@ -1,12 +1,11 @@
 ---
 title: "Engineering Projects"
-permalink: /engineeringprojects/
 layout: collection
+permalink: /engineeringprojects/
 classes: wide
 author_profile: true
 entries_layout: grid
 sidebar:
-  title: "Dyandra Prins"
   nav: sidebar
 
 # feature_row:
