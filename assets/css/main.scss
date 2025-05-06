@@ -1,17 +1,5 @@
+$link-color: rgb(0, 0, 0);
+$masthead-link-color-hover: rgb(11, 39, 99);
+$primary-color: rgb(7, 24, 61);
+
 @import "minimal-mistakes";
-
-html {
-  font-size: 12px; // change to whatever
-
-//   @include breakpoint($medium) {
-//     font-size: 18px; // change to whatever
-//   }
-
-//   @include breakpoint($large) {
-//     font-size: 20px; // change to whatever
-//   }
-
-//   @include breakpoint($x-large) {
-//     font-size: 22px; // change to whatever
-//   }
-}
