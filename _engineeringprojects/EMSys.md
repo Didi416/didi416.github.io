@@ -2,7 +2,7 @@
 # image_path: /assets/images/FPGADemo.png
 title: "Embedded Mechatronic Systems"
 excerpt: "MCU and FPGA Experiences."
-permalink: /engineeringprojects/EMSys/
+# permalink: /engineeringprojects/EMSys/
 ---
 Embedded Mechatronics Systems (2023)
 #### Key Learning Outcomes:

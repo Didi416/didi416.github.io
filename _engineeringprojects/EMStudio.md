@@ -1,7 +1,7 @@
 ---
 title: "Embedded Mechatronic Studio"
 excerpt: "Electronics and PCB Design for a Step Tracker."
-permalink: /engineeringprojects/EMStudio/
+# permalink: /engineeringprojects/EMStudio/
 ---
 Embedded Mechatronics Studio (2024)
 

@@ -1,7 +1,7 @@
 ---
 title: "Mechanical Design Fundamentals Studio 1"
 excerpt: "Warman Challenge and First Mechanical Design Robot, focus on CAD modelling and solving for a project brief."
-permalink: /engineeringprojects/MDFS1/
+# permalink: /engineeringprojects/MDFS1/
 
 # image_path: /assets/images/WarmanRobot.jpg
 

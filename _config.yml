@@ -83,7 +83,7 @@ atom_feed:
   hide: true
   
 defaults:
-  # engineeringprojects
+  # _engineeringprojects
   - scope:
       path: ""
       type: engineeringprojects
