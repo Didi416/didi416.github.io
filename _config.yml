@@ -89,7 +89,7 @@ defaults:
       type: engineeringprojects
     values:
       layout: single
-      # classes: wide
+      classes: wide
       author_profile: false
       read_time: true
       sidebar:

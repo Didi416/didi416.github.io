@@ -2,6 +2,7 @@
 title: "Engineering Projects"
 layout: collection
 permalink: /engineeringprojects/
+collection: engineeringprojects
 classes: wide
 author_profile: true
 entries_layout: grid
