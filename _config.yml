@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Dyandra Prins Portfolio
+title: Dyandra Prins
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   Undergraduate Engineering at UTS, majoring in Mechatronics, with a double degree in Creative Intelligence and Innovation
@@ -99,3 +99,6 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+atom_feed:
+  hide: true

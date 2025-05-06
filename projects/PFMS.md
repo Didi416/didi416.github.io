@@ -1,8 +1,7 @@
 ---
-title: "PFMS"
+title: "Projects in ROS2 Humble: Controlling Platforms and Programming Behaviours"
 permalink: /engineeringprojects/PFMS/
 ---
-## Projects in ROS2 Humble: Controlling Platforms and Programming Behaviours
 Programming for Mechatronic Systems (2024)
 
 #### Key Learning Outcomes:
@@ -11,6 +10,7 @@ Polymorphism/Inheritance/Classes/Gazebo/Multithreading/Graph Searching/Unit Test
 ![image-center](/assets/images/PFMS_Starting.png){: .align-center} 
 Through a series of progressively complex robotics programming assignments, I developed and implemented autonomous vehicle control systems using ROS2 and Gazebo simulation. The projects demonstrated mastery of object-oriented programming principles through the creation of control systems for multiple vehicle types. 
 
+### Overview
 Starting with basic vehicle control of an Audi R8 and Husky platform, the assignments progressed to advanced implementations including a Quadcopter, featuring multithreading and path planning capabilities. The final project showcased autonomous navigation using laser-based obstacle detection and dynamic path generation. These assignments highlighted my expertise in C++ programming, robotics simulation, real-time control systems, and software architecture while emphasizing industry-standard practices in modular development and comprehensive testing.
 
 ### Skills Developed:
