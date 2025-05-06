@@ -20,16 +20,16 @@ feature_row1:
     # alt: "placeholder image 2"
     title: "Embedded Mechatronic Systems"
     excerpt: "MCU and FPGA Experiences."
-    url: "/engineeringprojects/EMSys/"
-    btn_label: "View Project"
-    btn_class: "btn--primary"
+  #   url: "/engineeringprojects/EMSys/"
+  #   btn_label: "View Project"
+  #   btn_class: "btn--primary"
   - image_path: /assets/images/Fetch_Aruco.png
     # alt: "placeholder image 2"
     title: "Sensors and Control for Mechatronics Systems"
     excerpt: "First ROS and SLAM Experience."
-    url: "/engineeringprojects/SnC/"
-    btn_label: "View Project"
-    btn_class: "btn--primary"
+    # url: "/engineeringprojects/SnC/"
+    # btn_label: "View Project"
+    # btn_class: "btn--primary"
 feature_row2:
   - image_path: /assets/images/UR3.png
     # alt: "placeholder image 2"
