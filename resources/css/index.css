@@ -9,6 +9,7 @@
   --light-grey: #b4bec9;
   --dark-grey: #1e1e1e;
   --navy: #002333;
+  --navy2: #64a1bd;
   --blue-grey: #b4bec9;
 }
 
@@ -16,7 +17,12 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  background: var(--navy);
+  background: url("../images/creative-wallpaper-with-geometrical-shapes.jpg");
+  /* background: url("../images/3d-rendering-colorful-cubes.jpg"); */
+  background-size: cover; /* Optional: Ensures the image covers the entire background */
+  background-repeat: no-repeat; /* Optional: Prevents the image from repeating */
+  background-position: center center; /* Optional: Centers the image */
+  background-attachment: fixed; /* Optional: Keeps the background fixed when scrolling */
 }
 
 a {
@@ -49,6 +55,8 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background: #000000;
+  padding: 0 15px;
 }
 
 .navbar .main-menu ul {
@@ -68,13 +76,6 @@ img {
 /* Hero */
 .hero {
   padding: 70px 70px;
-}
-
-.hero .container {
-  padding: 50px 40px;
-  background: #fff;
-  display: flex;
-  align-items: center;
 }
 
 .hero img {
@@ -107,11 +108,127 @@ img {
   margin: 10px 20px 10px 0px;
 }
 
+/* Work */
+.work-exp-section {
+  padding: 0px 70px 70px;
+}
+
+.work-exp-section .container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.work-header {
+  align-self: flex-start;
+  margin-top: 20%;
+}
+
+.work-header h1 {
+  padding: 10px 0px;
+}
+
+.work-header p {
+  width: 90%;
+}
+
+.work-exp-section .work-grid {
+  padding-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(260px, 1fr));
+  gap: 24px;
+  align-items: stretch;
+}
+
+.item {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 320px;
+  border-radius: 2px;
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: flex-end;
+}
+
+.item .overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  max-height: var(--overlay-visible-height);
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.65);
+  color: #fff;
+  transform: translateY(
+    calc(var(--overlay-visible-height) - var(--title-space))
+  );
+  transition: transform 0.45s cubic-bezier(0.2, 0.9, 0.2, 1);
+  display: flex;
+  align-items: flex-end;
+}
+
+.item:hover .overlay {
+  max-height: 100%;
+  transform: translateY(calc(var(--overlay-visible-height))-100%);
+}
+
+.item .overlay-content {
+  padding: 20px;
+}
+
+.item h2 {
+  margin-bottom: 10px;
+  font-size: 1.25rem;
+}
+
+/* Projects */
+.projects-section {
+  padding: 0px 70px 70px;
+}
+
+.projects-section .container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.projects-header {
+  align-self: flex-start;
+  margin-top: 10%;
+}
+
+.projects-header h1 {
+  padding: 10px 0px;
+}
+
+.projects-header p {
+  width: 90%;
+}
+
+.projects-section .proj-grid {
+  padding-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(260px, 1fr));
+  gap: 24px;
+  align-items: stretch;
+}
+
+/* Skills */
+.skills-section {
+  padding: 0px 70px 70px;
+}
+
 /* Footer */
 
 .foot {
   background: var(--light-grey);
   padding: 35px 80px;
+}
+
+.foot .container {
+  background: var(--light-grey);
+  padding: 0 15px;
 }
 
 .foot .container ul {
@@ -128,7 +245,10 @@ img {
 .container {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 50px 40px;
+  background: #fff;
+  display: flex;
+  align-items: center;
 }
 
 .btn {

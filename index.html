@@ -19,8 +19,10 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="resources/css/index.css" />
+    <link rel="stylesheet" href="resources/css/lightbox.css" />
   </head>
   <body>
+    <!-- Navigation Bar -->
     <nav class="navbar">
       <div class="container">
         <div class="logo">
@@ -29,7 +31,7 @@
           </a>
           <p>Undergraduate Mechatronics Engineer</p>
         </div>
-        <div class="main-menu">
+        <!-- <div class="main-menu">
           <ul>
             <li>
               <a href="index.html">Home</a>
@@ -44,7 +46,7 @@
               <a href="experience.html">Experience</a>
             </li>
           </ul>
-        </div>
+        </div> -->
       </div>
     </nav>
 
@@ -92,12 +94,184 @@
       </div>
     </section>
 
-    <!-- Projects -->
-    <section class="projects"></section>
     <!-- Work Experience -->
-    <section class="work-exp"></section>
+    <section class="work-exp-section">
+      <div class="container">
+        <div class="work-header">
+          <h1>Work Experience</h1>
+          <p>
+            My professional experiences have allowed me to merge engineering
+            expertise with creative problem-solving. Working with startups and
+            industry professionals, I’ve developed skills in prototyping, user
+            engagement, and systems-thinking, while learning how to translate
+            technical complexity into meaningful outcomes for real stakeholders.
+          </p>
+        </div>
+        <div class="work-body">
+          <div class="work-grid">
+            <div
+              class="item"
+              style="
+                background-image: url('resources/images/work_exp/ANT61_Fleet.jpg');
+              "
+              data-img="resources/images/work_exp/ANT61_Fleet.jpg"
+              data-title="ANT61"
+              data-desc="As a part of my Transdisciplinary degree, I took part in a creative based internship experience with a 
+                          space robotics startup company, ANT61, focused on gaining customer engagement and retention. It was during my time with ANT61 where
+                          I further developed skills in prototyping, user engagement, and systems-thinking, while learning how to translate technical 
+                          complexity into meaningful outcomes for real stakeholders. I was also lucky enough to work alongside talented individuals from diverse backgrounds,
+                          further enhancing my collaborative and interdisciplinary skills, as well as attend the 18th Australia Space Forum where I had the chance to network 
+                          with amazing people in Australia's growing space industry, infinitely expanding my career possibilites."
+            >
+              <div class="overlay">
+                <div class="overlay-content">
+                  <h2>ANT61</h2>
+                  <p>
+                    Worked on user experiences and customer-facing pain points.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="item"
+              style="
+                background-image: url('resources/images/work_exp/I2ME_Homepage.png');
+              "
+              data-img="resources/images/work_exp/I2ME_Homepage.png"
+              data-title="University Tutoring"
+              data-desc="As a tutor at UTS, I assisted with instructing large groups of first and second-year engineering students through hands-on mechatronics projects. 
+                          I developed clear explanations of complex technical concepts, provided constructive feedback on student designs, and helped troubleshoot hardware 
+                          and software issues in real-time. This role strengthened my communication skills, deepened my understanding of foundational engineering principles. 
+                          I particularly enjoyed seeing students transition from confusion to confidence as they completed their projects."
+            >
+              <div class="overlay">
+                <div class="overlay-content">
+                  <h2>University Tutoring</h2>
+                  <p>
+                    Assisted with tutoring large groups of students in younger
+                    years through mechatronics projects.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="item"
+              style="
+                background-image: url('resources/images/work_exp/EveriLogo.png');
+              "
+              data-img="resources/images/work_exp/EveriLogo.png"
+              data-title="Everi"
+              data-desc="Mechanical and Electrical maintenance and repair work, simultaneously trains my problem solving and technical skills. I have worked at Everi (now IGT)
+                          for over 3 years as a casual employee, repairing components of gaming machines such as bill validators, ticket printers, and touch screens. 
+                          This role has developed my ability to diagnose and fix mechanical and electronic faults efficiently, often under time constraints. 
+                          Working in a fast-paced environment has improved my attention to detail and adaptability, while also providing valuable insights into the 
+                          gaming industry's operational aspects."
+            >
+              <div class="overlay">
+                <div class="overlay-content">
+                  <h2>Everi</h2>
+                  <p>
+                    Casual workplace repairing and diagnosing faults in
+                    mechanical and electronics.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="item"
+              style="
+                background-image: url('resources/images/work_exp/NextOre_ConveyorBeltSim.png');
+              "
+              data-img="resources/images/work_exp/NextOre_ConveyorBeltSim.png"
+              data-title="UTS Robotics Institute"
+              data-desc="Collaborative R&D project with mining industry partner to develop and validate ore-sensing solutions for conveyor systems. Responsibilities included sensor 
+                          integration and prototyping, building a conveyor-belt simulation to reproduce industrial conditions, developing hardware for collecting and processing sensor data, 
+                          and training classification models to improve ore detection. Condcuted experimental trials to evaluate detection accuracy and 
+                          robustness, iterated on hardware and software calibration, and produced technical documentation and deployment recommendations. Gained 
+                          experience in sensor interfacing, data acquisition, signal processing, Python/MATLAB analysis, and industry-focused systems engineering."
+            >
+              >
+              <div class="overlay">
+                <div class="overlay-content">
+                  <h2>UTS Robotics Institute</h2>
+                  <p>Research & innovation projects at the university.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Projects -->
+    <section class="projects-section">
+      <div class="container">
+        <div class="proj-body">
+          <div class="proj-grid">
+            <div
+              class="item"
+              style="
+                background-image: url('resources/images/projects/PFMS_Start2.png');
+              "
+              data-img="resources/images/projects/PFMS_Start2.png"
+              data-title="Autonomous Steering Control for Audi R8 (UGV)"
+              data-desc="Developed a autonomous control package for a modelled Audi R8 UGV using ROS, Gazebo and C++. Implemented C++ ROS nodes for path-following, state estimation 
+              (combining odometry, IMU and navigation stacks), utilising built in laser scanners, and an ROS compatible actuator interface. Used Gazebo simulation models and sensor 
+              plugins to reproduce vehicle dynamics, performed system identification and controller tuning, implemented safety interlocks and manual override, and created 
+              logging/visualisation workflows (rviz, rosbag) and automated test scripts for repeatable evaluation. Performance metrics included path-completion time as well as visual accuracy
+              and smoothness of performance."
+            >
+              <div class="overlay">
+                <div class="overlay-content">
+                  <h2>Steering Control Systems</h2>
+                  <p>
+                    Exploring mechatronics programming for autnomous systems
+                    (C++/ROS/Gazebo).
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="projects-header">
+          <h1>Projects</h1>
+          <p>
+            I have had the chance to participate in many engineering and
+            transdisciplinary projects over the past few years at university,
+            some successful, some less so, but I have learnt from all
+            experiences and carry them on in future projects. Throughout my
+            tertiary education, I’ve also learned that stepping beyond
+            engineering frameworks unlocks more socially impactful and
+            innovative solutions. I apply iterative design methodologies that
+            emphasise adaptability, stakeholder feedback, and continuous
+            reflection.
+          </p>
+        </div>
+      </div>
+    </section>
     <!-- Skills -->
-    <section class="skills"></section>
+    <!-- <section class="skills-section">
+      <div class="container">
+        <div class="skills">
+          <div class="skills-header">
+            <h1>Skills</h1>
+            <p>
+              I have gained and developed many skills over the years,
+              specifically in engineering and transdisciplinary practices. These
+              include skills in mechanical and electronic design, programming
+              languages geared towards automation and robotics, suhc as
+              C++/Python/XML, as well as for developmental purposes, such as VBA
+              macros and HTML/CSS/JavaScript (I coded this website from scratch
+              as well!). Other skills align more with transdisciplinary
+              practices and methods, primarily around discover, exploration and
+              ideation.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section> -->
 
     <!-- Footer -->
     <footer class="foot">
@@ -119,5 +293,28 @@
         </ul>
       </div>
     </footer>
+
+    <!-- Lightbox modal -->
+    <div id="lightbox-backdrop" class="lightbox-backdrop" aria-hidden="true">
+      <div
+        class="lightbox"
+        role="dialog"
+        aria-modal="true"
+        aria-label="Project details"
+      >
+        <button class="lightbox-close" aria-label="Close">&times;</button>
+        <div class="lightbox-body">
+          <!-- Left: text content -->
+          <div class="lightbox-text">
+            <h2 class="lightbox-title"></h2>
+            <p class="lightbox-desc"></p>
+          </div>
+          <!-- Right: image -->
+          <img class="lightbox-img" src="" alt="" />
+        </div>
+      </div>
+    </div>
+    <script src="resources/js/overlay-heights.js" defer></script>
+    <script src="resources/js/lightbox.js" defer></script>
   </body>
 </html>
