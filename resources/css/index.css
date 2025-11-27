@@ -9,7 +9,7 @@
   --light-grey: #b4bec9;
   --dark-grey: #1e1e1e;
   --navy: #002333;
-  --navy2: #64a1bd;
+  --light-blue: #64a1bd;
   --blue-grey: #b4bec9;
 }
 
@@ -18,11 +18,10 @@ body {
   font-size: 16px;
   line-height: 1.5;
   background: url("../images/creative-wallpaper-with-geometrical-shapes.jpg");
-  /* background: url("../images/3d-rendering-colorful-cubes.jpg"); */
-  background-size: cover; /* Optional: Ensures the image covers the entire background */
-  background-repeat: no-repeat; /* Optional: Prevents the image from repeating */
-  background-position: center center; /* Optional: Centers the image */
-  background-attachment: fixed; /* Optional: Keeps the background fixed when scrolling */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
 }
 
 a {
