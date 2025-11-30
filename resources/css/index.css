@@ -163,11 +163,16 @@ img {
 .projects-section .container {
   display: grid;
   grid-template-columns: 2fr 1fr;
+  gap: 40px;
+}
+
+.proj-body {
+  order: 1; /* Grid items on the left */
 }
 
 .projects-header {
+  order: 2; /* Header on the right */
   align-self: flex-start;
-  margin-top: 20%;
   padding-left: 35px;
 }
 
@@ -376,8 +381,14 @@ img {
     gap: 20px;
   }
 
+  .proj-body {
+    order: 2; /* Grid on bottom for mobile */
+  }
+
   .projects-header {
+    order: 1; /* Header on top for mobile */
     margin-top: 0;
+    padding-left: 0;
   }
 
   .projects-header h1 {
