@@ -25,12 +25,14 @@ document.addEventListener("DOMContentLoaded", () => {
         item.dataset.img = project.image;
         item.dataset.title = project.title;
         item.dataset.desc = project.fullDesc;
+        item.dataset.skills = project.skills;
 
         item.innerHTML = `
           <div class="overlay">
             <div class="overlay-content">
               <h2>${project.title}</h2>
               <p>${project.shortDesc}</p>
+              <div class="overlay-instruction">Click to learn more!</div>
             </div>
           </div>
         `;

@@ -66,6 +66,13 @@
   color: #333;
 }
 
+.lightbox-skills {
+  margin-top: 12px;
+  font-size: 0.95rem;
+  font-style: italic-bold;
+  color: #555;
+}
+
 .lightbox-img {
   width: 100%;
   height: auto;

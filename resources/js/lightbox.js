@@ -6,6 +6,7 @@ function initialiseLightbox() {
   const lbImg = backdrop.querySelector(".lightbox-img");
   const lbTitle = backdrop.querySelector(".lightbox-title");
   const lbDesc = backdrop.querySelector(".lightbox-desc");
+  const lbSkills = backdrop.querySelector(".lightbox-skills");
   const closeBtn = backdrop.querySelector(".lightbox-close");
   let lastFocused = null;
 
@@ -14,11 +15,13 @@ function initialiseLightbox() {
     const img = item.dataset.img || "";
     const title = item.dataset.title || "";
     const desc = item.dataset.desc || "";
+    const skills = item.dataset.skills || "";
 
     lbImg.src = img;
     lbImg.alt = title;
     lbTitle.textContent = title;
     lbDesc.textContent = desc;
+    lbSkills.textContent = skills;
 
     backdrop.classList.add("active");
     backdrop.setAttribute("aria-hidden", "false");
