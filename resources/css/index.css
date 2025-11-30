@@ -103,6 +103,10 @@ img {
   font-weight: bold;
 }
 
+.hero .intro-main p {
+  padding-bottom: 10px;
+}
+
 .hero .intro-base {
   padding: 10px 0px;
   font-style: italic;
@@ -114,6 +118,10 @@ img {
 
 .hero .links li {
   margin: 10px 20px 10px 0px;
+}
+
+.hero .links li i {
+  margin-right: 15px;
 }
 
 /* Work */
