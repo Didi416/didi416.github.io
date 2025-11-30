@@ -1,5 +1,8 @@
-document.addEventListener("DOMContentLoaded", () => {
+// Lightbox modal functionality - used for both work experience and projects
+function initialiseLightbox() {
   const backdrop = document.getElementById("lightbox-backdrop");
+  if (!backdrop) return;
+
   const lbImg = backdrop.querySelector(".lightbox-img");
   const lbTitle = backdrop.querySelector(".lightbox-title");
   const lbDesc = backdrop.querySelector(".lightbox-desc");
@@ -20,8 +23,6 @@ document.addEventListener("DOMContentLoaded", () => {
     backdrop.classList.add("active");
     backdrop.setAttribute("aria-hidden", "false");
     document.body.style.overflow = "hidden";
-
-    // focus on close button for accessibility
     closeBtn.focus();
   }
 
@@ -32,36 +33,38 @@ document.addEventListener("DOMContentLoaded", () => {
     if (lastFocused) lastFocused.focus();
   }
 
-  // attach click handlers to items
-  document.querySelectorAll(".item").forEach((item) => {
-    item.addEventListener("click", (e) => {
-      // if a link inside item is clicked, let it handle navigation
-      openLightbox(item);
-    });
-    item.style.cursor = "pointer";
-    // make keyboard accessible
-    item.tabIndex = 0;
-    item.addEventListener("keydown", (e) => {
-      if (e.key === "Enter" || e.key === " ") {
-        e.preventDefault();
-        openLightbox(item);
-      }
-    });
-  });
+  function attachClickHandlers(selector) {
+    document.querySelectorAll(selector).forEach((item) => {
+      // Remove existing listeners by cloning (to avoid duplicates)
+      const newItem = item.cloneNode(true);
+      item.parentNode.replaceChild(newItem, item);
 
-  // backdrop click closes if clicked outside the modal
+      newItem.addEventListener("click", () => openLightbox(newItem));
+      newItem.style.cursor = "pointer";
+      newItem.tabIndex = 0;
+      newItem.addEventListener("keydown", (e) => {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          openLightbox(newItem);
+        }
+      });
+    });
+  }
+
+  // Backdrop click closes
   backdrop.addEventListener("click", (e) => {
     if (e.target === backdrop) closeLightbox();
   });
 
   closeBtn.addEventListener("click", closeLightbox);
 
+  // Escape key closes
   document.addEventListener("keydown", (e) => {
     if (e.key === "Escape" && backdrop.classList.contains("active"))
       closeLightbox();
   });
 
-  // simple focus trap: keep focus inside modal while open
+  // Focus trap
   document.addEventListener(
     "focus",
     (e) => {
@@ -73,4 +76,14 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     true
   );
+
+  // Return function to attach handlers to new items
+  return attachClickHandlers;
+}
+
+// Initialise on page load
+document.addEventListener("DOMContentLoaded", () => {
+  const attachClickHandlers = initialiseLightbox();
+  // Attach to work experience items
+  attachClickHandlers(".work-grid .item");
 });

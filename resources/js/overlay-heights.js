@@ -39,6 +39,19 @@ function debounce(fn, wait) {
 
 document.addEventListener("DOMContentLoaded", () => {
   updateOverlayHeights();
+
+  // Wait for images to load, then recalculate
+  // This fixes the issue where background images haven't loaded yet
+  if (document.readyState === "loading") {
+    window.addEventListener("load", updateOverlayHeights);
+  } else {
+    // Page already fully loaded
+    window.addEventListener("load", updateOverlayHeights);
+  }
+
+  // Small delay as additional safety measure
+  setTimeout(updateOverlayHeights, 500);
+
   // update on resize (debounced)
   window.addEventListener("resize", debounce(updateOverlayHeights, 120));
 
