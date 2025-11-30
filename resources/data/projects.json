@@ -49,7 +49,7 @@
   },
   {
     "title": "Flight Simulator (currently in progress)",
-    "image": "resources/images/projects/FlightSim1.png",
+    "image": "resources/images/projects/FlightSim_1.png",
     "shortDesc": "Designing a FLight SImulator control rig with UTS AeroSpace Society",
     "fullDesc": "Designing and building a flight simulator control rig for UTS AeroSpace Society. The rig will include realistic controls such as yoke, throttle, and pedals, integrated with flight simulation software. Focus on mechanical design, electronics integration, and user experience to create an immersive simulation environment. \n Skills: Mechanical design, electronics integration, user experience design."
   }
