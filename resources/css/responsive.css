@@ -17,6 +17,11 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .item .overlay {
+  max-height: 100%;
+  transform: translateY(calc(var(--overlay-visible-height))-100%);
+  }
+
   .container {
     padding: 40px 30px;
   }
@@ -124,6 +129,11 @@
 
   .item h2 {
     font-size: 1.1rem;
+  }
+
+  .item .overlay {
+  max-height: 100%;
+  transform: translateY(calc(var(--overlay-visible-height))-100%);
   }
 
   .item .overlay-content {
@@ -278,6 +288,11 @@
 
   .item h2 {
     font-size: 1rem;
+  }
+
+  .item .overlay {
+  max-height: 100%;
+  transform: translateY(calc(var(--overlay-visible-height))-100%);
   }
 
   .item .overlay-content {
