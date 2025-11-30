@@ -43,8 +43,14 @@
   },
   {
     "title": "Robot Royale",
-    "image": "resources/images/projects/UR3.png",
+    "image": "resources/images/projects/RR_Front.jpg",
     "shortDesc": "UNSW Robot Royale Competition, programming and controlling a 150g antweight robot in an arena",
-    "fullDesc": "Participated in the plastic division with a 150g antweight robot. My team and I designed, 3D-printed, and soldered modular robot components (including weapon and drive systems) then iteratively tested and refined them under load testing. Competing head-to-head in real battles and making it to the semi-finals"
+    "fullDesc": "Participated in the plastic division with a 150g antweight robot. My team and I designed, 3D-printed, and soldered modular robot components (including weapon and drive systems) then iteratively tested and refined them under load testing. Competing head-to-head in real battles and making it to the semi-finals. \n Skills: Mechanical design, electronics, soldering, programming."
+  },
+  {
+    "title": "Flight Simulator (currently in progress)",
+    "image": "resources/images/projects/FlightSim1.png",
+    "shortDesc": "Designing a FLight SImulator control rig with UTS AeroSpace Society",
+    "fullDesc": "Designing and building a flight simulator control rig for UTS AeroSpace Society. The rig will include realistic controls such as yoke, throttle, and pedals, integrated with flight simulation software. Focus on mechanical design, electronics integration, and user experience to create an immersive simulation environment. \n Skills: Mechanical design, electronics integration, user experience design."
   }
 ]
