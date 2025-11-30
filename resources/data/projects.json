@@ -4,5 +4,53 @@
     "image": "resources/images/projects/StepTracker.png",
     "shortDesc": "Wearable step-counting device with motion sensors.",
     "fullDesc": "A wearable step-counting device using Arduino and motion sensors to track daily activity. Features an LCD display for real-time metrics and long battery life. Designed through iterative prototyping with custom PCB design. Skills: Embedded C, hardware prototyping, PCB design, sensor integration."
+  },
+  {
+    "title": "PFMS A3",
+    "image": "resources/images/projects/PFMS_A3.png",
+    "shortDesc": "Mobile robot with autonomous navigation and mapping.",
+    "fullDesc": "Practical Foundations of Mobile Systems assignment involving autonomous robot navigation. Implemented path planning algorithms, sensor fusion, and real-time control systems. Focus on practical robotics principles and hands-on hardware integration."
+  },
+  {
+    "title": "RS1 SLAM",
+    "image": "resources/images/projects/RS1_SLAM1.png",
+    "shortDesc": "Simultaneous Localization and Mapping implementation.",
+    "fullDesc": "Implemented SLAM (Simultaneous Localization and Mapping) for autonomous robot navigation. Integrated multiple sensors, developed feature detection algorithms, and created real-time mapping visualization. Key learning in robotic perception and spatial reasoning."
+  },
+  {
+    "title": "Fetch Robot Vision",
+    "image": "resources/images/projects/Fetch_Aruco.png",
+    "shortDesc": "Computer vision system for object detection and tracking.",
+    "fullDesc": "Developed computer vision systems using ArUco markers and object detection algorithms for autonomous robot operation. Implemented real-time image processing pipeline, sensor calibration, and integration with robotic control systems. Skills: OpenCV, Python, ROS."
+  },
+  {
+    "title": "IR Sensor Project",
+    "image": "resources/images/projects/IR_A1.png",
+    "shortDesc": "Infrared sensing and signal processing system.",
+    "fullDesc": "Designed and built an infrared sensing system for environmental monitoring and proximity detection. Implemented analog signal conditioning, digital processing, and data visualization. Applied practical electronics and sensor calibration techniques."
+  },
+  {
+    "title": "Mobile Dynamics & Control",
+    "image": "resources/images/projects/MDFS1_CVB.png",
+    "shortDesc": "Control systems for mobile robot dynamics.",
+    "fullDesc": "Studied and implemented control algorithms for mobile robot systems. Analyzed dynamics, developed feedback control strategies, and tested on real hardware. Focus on control theory applications in robotics."
+  },
+  {
+    "title": "Robotic System Navigation",
+    "image": "resources/images/projects/RS1_Enviro.png",
+    "shortDesc": "Autonomous navigation in complex environments.",
+    "fullDesc": "Developed autonomous navigation systems for robots operating in real-world environments. Implemented obstacle avoidance, path planning, and sensor-based decision making. Tested reliability and adaptability of the navigation stack."
+  },
+  {
+    "title": "FPGA Demo",
+    "image": "resources/images/projects/FPGADemo.png",
+    "shortDesc": "Digital logic implementation on FPGA hardware.",
+    "fullDesc": "Implemented digital circuits and algorithms on FPGA hardware. Gained hands-on experience with hardware description languages, real-time processing, and embedded system design. Explored parallel processing capabilities."
+  },
+  {
+    "title": "UR3 Robot Manipulation",
+    "image": "resources/images/projects/UR3.png",
+    "shortDesc": "Collaborative robot arm programming and control.",
+    "fullDesc": "Programmed and controlled the UR3 collaborative robot arm for manipulation tasks. Developed end-effector control strategies, motion planning, and human-robot interaction protocols. Applied real robotics in industrial context."
   }
 ]
