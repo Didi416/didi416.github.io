@@ -11,6 +11,7 @@ function updateOverlayHeights() {
     const titleHeight = title
       ? Math.ceil(title.getBoundingClientRect().height)
       : 0;
+    // const titleHeight = Math.ceil(title.scrollHeight);
     // bottom spacing applied to .title in CSS (keep in sync with CSS bottom value)
     const titleBottomSpacing = 46; // px
     // add a small buffer so the content doesn't butt up against the title
