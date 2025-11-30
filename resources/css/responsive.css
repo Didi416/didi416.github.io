@@ -282,6 +282,12 @@
     font-size: 0.8rem;
   }
 
+  .work-header, 
+  .projects-header, 
+  .skills-header {
+    margin: 0px;
+  }
+
   .item {
     height: 200px;
   }
