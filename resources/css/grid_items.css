@@ -39,6 +39,12 @@
   justify-items: center;
 }
 
+.item .overlay-content .overlay-instruction {
+  font-size: 0.9rem;
+  color: #ccc;
+  margin-top: 10px;
+}
+
 .item h2 {
   margin-bottom: 15px;
   font-size: 1.25rem;
