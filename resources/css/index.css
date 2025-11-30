@@ -173,7 +173,6 @@ img {
 .projects-header {
   order: 2; /* Header on the right */
   align-self: flex-start;
-  /* padding-left: 35px; */
   margin: 50px
 }
 
