@@ -167,11 +167,11 @@ img {
 }
 
 .proj-body {
-  order: 1; /* Grid items on the left */
+  order: 2; /* Grid items on the left */
 }
 
 .projects-header {
-  order: 2; /* Header on the right */
+  order: 1; /* Header on the right */
   align-self: flex-start;
   margin: 50px
 }

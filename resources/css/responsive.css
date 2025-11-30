@@ -8,10 +8,6 @@
     padding: 0px 40px 40px;
   }
 
-  .projects-section {
-    padding: 0px 40px 40px;
-  }
-
   .work-exp-section .work-grid,
   .projects-section .proj-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -19,7 +15,7 @@
 
   .item .overlay {
   max-height: 100%;
-  transform: translateY(calc(var(--overlay-visible-height))-100%);
+  transform: translateY(calc(var(--overlay-visible-height))-100%); 
   }
 
   .container {
@@ -96,11 +92,13 @@
   }
 
   /* Work Experience */
-  .work-exp-section {
+  .work-exp-section,
+  .projects-section {
     padding: 0px 20px 30px;
   }
 
-  .work-exp-section .container {
+  .work-exp-section .container,
+  .projects-section .container {
     grid-template-columns: 1fr;
     gap: 20px;
   }
@@ -109,19 +107,26 @@
     margin-top: 0;
   }
 
-  .work-header h1 {
+  .work-header h1,
+  .projects-header h1,
+  .skills-header h1 {
     font-size: 1.5rem;
   }
 
-  .work-header p {
+  .work-header p,
+  .projects-header p,
+  .skills-header p {
     width: 100%;
     font-size: 0.9rem;
   }
 
-  .work-exp-section .work-grid {
+  .work-exp-section .work-grid,
+  .projects-section .proj-grid {
     grid-template-columns: 1fr;
     gap: 16px;
   }
+
+  /* Grid Items */
 
   .item {
     height: 250px;
@@ -141,21 +146,12 @@
   }
 
   /* Projects */
-  .projects-section {
-    padding: 0px 20px 30px;
-  }
-
-  .projects-section .container {
-    grid-template-columns: 1fr;
-    gap: 20px;
-  }
-
   .proj-body {
-    order: 2; /* Grid on bottom for mobile */
+    order: 1; /* Grid on bottom for mobile */
   }
 
   .projects-header {
-    order: 1; /* Header on top for mobile */
+    order: 2; /* Header on top for mobile */
     margin-top: 0;
     padding-left: 0;
   }
@@ -166,20 +162,6 @@
     margin: 0px;
   }
 
-  .projects-header h1 {
-    font-size: 1.5rem;
-  }
-
-  .projects-header p {
-    width: 100%;
-    font-size: 0.9rem;
-  }
-
-  .projects-section .proj-grid {
-    grid-template-columns: 1fr;
-    gap: 16px;
-  }
-
   /* Skills */
   .skills-section {
     padding: 0px 20px 30px;
@@ -187,14 +169,6 @@
 
   .skills-section .container {
     flex-direction: column;
-  }
-
-  .skills-header h1 {
-    font-size: 1.5rem;
-  }
-
-  .skills-header p {
-    font-size: 0.9rem;
   }
 
   /* Footer */
