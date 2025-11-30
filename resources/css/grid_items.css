@@ -1,0 +1,45 @@
+/* Grid Items */
+.item {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 320px;
+  border-radius: 2px;
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: flex-end;
+}
+
+.item .overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  max-height: var(--overlay-visible-height);
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.65);
+  color: #fff;
+  transform: translateY(
+    calc(var(--overlay-visible-height) - var(--title-space))
+  );
+  transition: transform 0.45s cubic-bezier(0.2, 0.9, 0.2, 1);
+  display: flex;
+  align-items: flex-end;
+}
+
+.item:hover .overlay {
+  max-height: 100%;
+  transform: translateY(calc(var(--overlay-visible-height))-100%);
+}
+
+.item .overlay-content {
+  padding: 20px;
+  justify-items: center;
+}
+
+.item h2 {
+  margin-bottom: 15px;
+  font-size: 1.25rem;
+}

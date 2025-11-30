@@ -1,50 +1,50 @@
 [
   {
-    "title": "PFMS A3",
-    "image": "resources/images/projects/PFMS_A3.png",
-    "shortDesc": "Mobile robot with autonomous navigation and mapping.",
-    "fullDesc": "Practical Foundations of Mobile Systems assignment involving autonomous robot navigation. Implemented path planning algorithms, sensor fusion, and real-time control systems. Focus on practical robotics principles and hands-on hardware integration."
+    "title": "Step Tracker",
+    "image": "resources/images/projects/StepTracker.png",
+    "shortDesc": "Complete design for a step tracker using ADXL335 accelerometer, encompassing mechanical, electrical, hardware, and programming knowledge.",
+    "fullDesc": "A wearable step-counting device developed using Arduino and motion sensors to track walking activity. Features an LCD display for real-time metrics accessible buttons for control. Designed through iterative prototyping with custom PCB design, 3D modelling and printing as well as C++ programming. \n Skills: C++, hardware prototyping, PCB design, sensor integration, CAD, 3D Printing."
   },
   {
-    "title": "RS1 SLAM",
+    "title": "Steering Control System",
+    "image": "resources/images/projects/PFMS_A3.png",
+    "shortDesc": "ROS Interfacing/Programming, controlling various platforms and programming behaviours for autonomous LIDAR navigation and mapping.",
+    "fullDesc": "Practical Foundations of Mobile Systems assignment involving autonomous robot navigation. Implemented path planning algorithms, sensor fusion, and real-time control systems. Focus on practical robotics principles and hands-on hardware integration. \n Skills: ROS, Gazebo, C++, control systems."
+  },
+  {
+    "title": "Robotic Guide Dog SLAM",
     "image": "resources/images/projects/RS1_SLAM1.png",
-    "shortDesc": "Simultaneous Localization and Mapping implementation.",
-    "fullDesc": "Implemented SLAM (Simultaneous Localization and Mapping) for autonomous robot navigation. Integrated multiple sensors, developed feature detection algorithms, and created real-time mapping visualization. Key learning in robotic perception and spatial reasoning."
+    "shortDesc": "Simultaneous Localisation and Mapping implementation.",
+    "fullDesc": "Implemented SLAM (Simultaneous Localisation and Mapping) for autonomous robot navigation. Integrated multiple sensors including LIDAR and RGBD Cameras, developed feature detection algorithms, and created real-time mapping visualisation. Implemented obstacle avoidance, path planning, and sensor-based decision making. Tested reliability and adaptability of the navigation stack. \n Skills: ROS, C++, SLAM algorithms, sensor integration."
   },
   {
     "title": "Fetch Robot Vision",
     "image": "resources/images/projects/Fetch_Aruco.png",
     "shortDesc": "Computer vision system for object detection and tracking.",
-    "fullDesc": "Developed computer vision systems using ArUco markers and object detection algorithms for autonomous robot operation. Implemented real-time image processing pipeline, sensor calibration, and integration with robotic control systems. Skills: OpenCV, Python, ROS."
+    "fullDesc": "Developed computer vision systems using ArUco markers and object detection algorithms for autonomous robot following/operation. Implemented real-time image processing pipeline, sensor calibration, and integration with robotic control systems. Skills: OpenCV, Python, C++, ROS."
   },
   {
-    "title": "IR Sensor Project",
+    "title": "Collaborative Robots",
     "image": "resources/images/projects/IR_A1.png",
-    "shortDesc": "Infrared sensing and signal processing system.",
-    "fullDesc": "Designed and built an infrared sensing system for environmental monitoring and proximity detection. Implemented analog signal conditioning, digital processing, and data visualization. Applied practical electronics and sensor calibration techniques."
+    "shortDesc": "Controlling UR3 cobots for industrial applications.",
+    "fullDesc": "Utilised industrial robotics techniques to program and control UR3 collaborative robots for various tasks. Developed motion planning, end-effector control, and safety protocols for human-robot interaction. Applied transforms, forward kinematics, inverse kinematics, poses and orientations, joint space and cartesian space trajectories, and point cloud generations. Utilised Peter Corke's Robotics Toolbox for MATLAB. \n Skills: MATLAB, industrial robotics/kinematics, end effector control, programming, simulation setup and control."
   },
   {
-    "title": "Mobile Dynamics & Control",
-    "image": "resources/images/projects/MDFS1_CVB.png",
-    "shortDesc": "Control systems for mobile robot dynamics.",
-    "fullDesc": "Studied and implemented control algorithms for mobile robot systems. Analyzed dynamics, developed feedback control strategies, and tested on real hardware. Focus on control theory applications in robotics."
-  },
-  {
-    "title": "Robotic System Navigation",
-    "image": "resources/images/projects/RS1_Enviro.png",
-    "shortDesc": "Autonomous navigation in complex environments.",
-    "fullDesc": "Developed autonomous navigation systems for robots operating in real-world environments. Implemented obstacle avoidance, path planning, and sensor-based decision making. Tested reliability and adaptability of the navigation stack."
+    "title": "WARMAN Challenge Robot",
+    "image": "resources/images/projects/WarmanRobot.jpg",
+    "shortDesc": "Warman Challenge and First Mechanical Design Robot, focus on CAD modelling and solving for a project brief.",
+    "fullDesc": "Designed and built a competition robot for the WARMAN Challenge, emphasising mechanical engineering principles and CAD modelling. Developed comprehensive 3D models to meet specific project requirements and constraints. Focused on iterative design, structural optimisation, and practical problem-solving. Integrated mechanical systems and validated designs through testing and prototyping. \n Skills: CAD modelling, mechanical design, 3D printing, prototyping, design optimisation."
   },
   {
     "title": "FPGA Demo",
     "image": "resources/images/projects/FPGADemo.png",
     "shortDesc": "Digital logic implementation on FPGA hardware.",
-    "fullDesc": "Implemented digital circuits and algorithms on FPGA hardware. Gained hands-on experience with hardware description languages, real-time processing, and embedded system design. Explored parallel processing capabilities."
+    "fullDesc": "Implemented digital circuits and algorithms on FPGA hardware. Gained hands-on experience with hardware description languages and architecture, real-time processing, and embedded system design. Explored parallel processing capabilities. \n Skills: FPGA architecture, digital design, Embedded C programming, waveform logic analysis."
   },
   {
-    "title": "UR3 Robot Manipulation",
+    "title": "Robot Royale",
     "image": "resources/images/projects/UR3.png",
-    "shortDesc": "Collaborative robot arm programming and control.",
-    "fullDesc": "Programmed and controlled the UR3 collaborative robot arm for manipulation tasks. Developed end-effector control strategies, motion planning, and human-robot interaction protocols. Applied real robotics in industrial context."
+    "shortDesc": "UNSW Robot Royale Competition, programming and controlling a 150g antweight robot in an arena",
+    "fullDesc": "Participated in the plastic division with a 150g antweight robot. My team and I designed, 3D-printed, and soldered modular robot components (including weapon and drive systems) then iteratively tested and refined them under load testing. Competing head-to-head in real battles and making it to the semi-finals"
   }
 ]
