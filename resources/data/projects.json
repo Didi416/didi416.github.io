@@ -1,11 +1,5 @@
 [
   {
-    "title": "Step Tracker",
-    "image": "resources/images/projects/StepTracker.png",
-    "shortDesc": "Wearable step-counting device with motion sensors.",
-    "fullDesc": "A wearable step-counting device using Arduino and motion sensors to track daily activity. Features an LCD display for real-time metrics and long battery life. Designed through iterative prototyping with custom PCB design. Skills: Embedded C, hardware prototyping, PCB design, sensor integration."
-  },
-  {
     "title": "PFMS A3",
     "image": "resources/images/projects/PFMS_A3.png",
     "shortDesc": "Mobile robot with autonomous navigation and mapping.",
