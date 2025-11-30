@@ -147,11 +147,11 @@
 
   /* Projects */
   .proj-body {
-    order: 1; /* Grid on bottom for mobile */
+    order: 2; /* Grid on bottom for mobile */
   }
 
   .projects-header {
-    order: 2; /* Header on top for mobile */
+    order: 1; /* Header on top for mobile */
     margin-top: 0;
     padding-left: 0;
   }
@@ -193,7 +193,7 @@
   /* Lightbox */
   .lightbox {
     width: 95%;
-    max-height: 95vh;
+    max-height: 80vh;
     padding: 20px;
   }
 
