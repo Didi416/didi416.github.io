@@ -196,12 +196,13 @@ img {
 
 .foot {
   background: var(--light-grey);
-  padding: 35px 80px;
+  padding: 20px 80px;
 }
 
 .foot .container {
   background: var(--light-grey);
   padding: 0 15px;
+  justify-content: space-between;
 }
 
 .foot .container ul {
